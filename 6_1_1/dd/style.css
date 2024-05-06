@@ -1,0 +1,33 @@
+<style>
+h2 {
+    color: red;
+}
+.profile {
+    border: solid;
+    gap: 10px;
+}
+</style>
+<div class="profile">
+    <div>
+        <img src="image/cook.jpg" alt="요리"
+    height="35px">
+    </div>
+    <div>
+        cook!
+    </div>
+    <div class="profile">
+        <div>
+            <img src="image/highschool.jpg" alt="고딩" height="35px">
+        </div>
+        <div>
+            고딩
+        </div>
+    </div>
+</div>
+<div class="profile">
+    <div>
+        <img src="image/ppippi.jpg" alt="삐삐" height="35px">
+    </div>
+    <div>汉语考试❤</div>
+</div>
+<div>
