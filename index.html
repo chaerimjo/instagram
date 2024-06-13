@@ -1,87 +1,121 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+        <script src="script.js"></script>
     </head>
     <body>
-        <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
-        <input type="search" value="검색">
-        <div>
-            <img src="image/profile.png" width="50px" alt="chaam"/>
-        </div>
-        <div>
-            <h2> 
-                j_._._chaam
-            </h2>
-        </div>
-        <div>
-        <button>>프로필 편집</button>
-        </div>
-        <p>
-            <strong>
-                조채림 (chaerimjo)<br/>
-                저자<br/>
-            </strong>
-        </p>
-        <p>
-            <a href="http://needleworm.github.io">
-            needleworm.github.io
-            </a>
-            <div class="profile">
-                <div>
-                    <img src="image/cook.jpg" alt="요리"
-                height="35px">
-                </div>
-                <div>
-                    cook!
-                </div>
-                <div class="profile">
-                    <div>
-                        <img src="image/highschool.jpg" alt="고딩" height="35px">
-                    </div>
-                    <div>
-                        고딩
-                    </div>
-                </div>
+        <div id="top">
+            <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4. png"/>
+            <div class="sb">
+                <input class="search_bar" type="search" value="검색"/>
             </div>
-            <div class="profile">
-                <div>
-                    <img src="image/ppippi.jpg" alt="삐삐" height="35px">
-                </div>
-                <div>汉语考试❤</div>
-            </div>
+            
             <div>
-            게시물<br/>
-            35
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                <i class="fa fa-compass" aria-hidden="true"></i>
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+            </div>
+            <div></div>
         </div>
-        <div>
-            팔로워 <br/>
-            371
+
+        <div id="profile">
+            <div id="profile_pic">
+                <img class="circle_pic" src="image/profile.png">
+                </div>
+                <div id="profile_info">
+                    <div id="id">
+                        <span>j_._._chaam</span>
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </div>
+                    <button>프로필 편집</button>
+                </div>
+            </div>
+        <p>
+            <strong id="userInfo">
+                조채림 (chaerimjo)<br/>
+            </strong><br/>
+            <span id="summary">작가</span>
+        </p>
+        <p id = "profile.Detail">
+            <a href="https://blog.naver.com/like_chaerim">
+            https://blog.naver.com/like_chaerim
+            </a>
+
+        <div id="highlight_area">
+            <div class="highlight">
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/cook.jpg"/>
+                </div>
+                <div>
+                    요리
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/highschool.jpg"/>
+                </div>
+                <div>
+                    고딩
+                </div>
+            </div>
+            <div class="highlight">
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="image/ppippi.jpg"/>
+                </div>
+                <div>
+                    汉语考试❤
+                </div>
+                <div></div>
+            </div>
         </div>
-        <div>
-            팔로우 <br/>
-            273
-        </div>
+        
+                    
         </p>
         <p>
-            게시물<br/>
-            팔로워<br/>
-            팔로우<br/>
-            133<br/>
-            408<br/>
-            189<br/>
+        <div id="start_bar">
+            <div class="start">
+                게시물<br/>
+                35
+            </div>
+            <div class="start">
+                팔로워<br/>
+                370
+            </div>
+            <div class="start">
+                팔로우<br/>
+                274
+            </div>
+        </div>
         </p>
         <div>
-            <img src="image/thumbnails/1.png" width="32%"/>
-            <img src="image/thumbnails/2.png" width="32%"/>
-            <img src="image/thumbnails/3.png" width="32%"/>
-            <img src="image/thumbnails/4.png" width="32%"/>
-            <img src="image/thumbnails/5.png" width="32%"/>
-            <img src="image/thumbnails/6.png" width="32%"/>
-            <img src="image/thumbnails/7.png" width="32%"/>
-            <img src="image/thumbnails/8.png" width="32%"/>
-            <img src="image/thumbnails/9.png" width="32%"/>
+            <div id="sub_icons">
+                <div class="selected">
+                    <i class="fa fa-plus-square-o" aria-hidden="true"></i></div>
+                <div><i class="fa fa-film" aria-hidden="true"></i></div>
+                <div><i class="fa fa-play-circle-o" aria-hidden="true"></i></div>
+                <div><i class="fa fa-bookmark-o" aria-hidden="true"></i></div>
+                <div><i class="fa fa-user" aria-hidden="true"></i></div>
+            </div>
         </div>
-        <div>아이콘이 들어갈 자리</div>
-        <div>게시물 썸네일이 들어갈 자리</div>
+            
+        <div>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnails/1.png" class="thumbnail"/>
+                <img src="image/thumbnails/2.png" class="thumbnail"/>
+                <img src="image/thumbnails/3.png" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnails/4.png" class="thumbnail"/>
+                <img src="image/thumbnails/5.png" class="thumbnail"/>
+                <img src="image/thumbnails/6.png" class="thumbnail"/>
+            </div>
+            <div class="thumbnail_grid">
+                <img src="image/thumbnails/7.png" class="thumbnail"/>
+                <img src="image/thumbnails/8.png" class="thumbnail"/>
+                <img src="image/thumbnails/9.png" class="thumbnail"/>
+            </div>
+        </div>
     </body>
 </html>
